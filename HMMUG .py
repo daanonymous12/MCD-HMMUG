@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 21 01:02:21 2019
 
-@author: da
-"""
 import numpy as np
 import scipy.stats as stats
 import random 
