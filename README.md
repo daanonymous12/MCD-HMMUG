@@ -20,9 +20,7 @@ The three test cases are:
 
 Data should be cleaned before running the model.  The ouput of the data will be 
 ![MCDOUT](/pics/mcd.png).  
-Please read Rousseeuw and Van Driessen (1999). 
-  
-if you wish to gain a better understanding of 
+Please read Rousseeuw and Van Driessen (1999) if you wish to gain a better understanding of 
 fast MCD algorithm 
 ## Univariate Gaussian Hidden Markov Model
   
@@ -31,8 +29,8 @@ we can be in. Similar to interconnected rooms. At any given time, theres a proba
 we move into another room or stay in the same room. In a hidden markov model, the states(rooms)
 are not known. The probability of a person ending up in another room is dependent on the room he 
 was in at the previous discrete time.   
-The basis of the Hidden markov model is a special version of EM algorithsm(estimation, maximization) which involves 
-forward recursion followed by backwards recursion and is named Balm Welsh Algorithm.  
+The basis of the Hidden markov model is a special version of EM algorithm(estimation, maximization) which involves 
+forward recursion followed by backwards recursion， named Balm Welsh Algorithm.  
 This algorithm is important to detech when market environments move from one state to another and can be used to 
 take advantage of regime changes. The picture below shows a simplified version.  
 ![hmm](/pics/hmm.png)
